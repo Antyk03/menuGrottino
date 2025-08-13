@@ -1,0 +1,21 @@
+/* Rimuove margini e padding generali */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+
+/* Contenitore centrale */
+.container {
+    width: 100%;          /* Occupa tutta la larghezza dello schermo */
+    padding: 0;
+}
+
+/* Immagini responsive */
+.menu-image {
+    width: 100%;           /* Occupa tutta la larghezza del contenitore */
+    max-width: 100%;       /* Non supera mai la larghezza dello schermo */
+    height: auto;          /* Mantiene proporzioni */
+    display: block;        /* Rimuove spazi bianchi sotto l'immagine */
+    margin: 0;             /* Nessun margine */
+}
